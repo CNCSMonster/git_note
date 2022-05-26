@@ -1,3 +1,28 @@
 ### 资源
 
-[https://blog.csdn.net/zmemorys/article/details/112648082?ops_request_misc=&request_id=&biz_id=102&utm_term=如何拉取远程分支&utm_medium=distribute.pc_search_result.none-task-blog-2\\\~all\\\~sobaiduweb\\\~default-1-112648082.nonecase&spm=1018.2226.3001.4187](https://blog.csdn.net/zmemorys/article/details/112648082?ops_request_misc=&request_id=&biz_id=102&utm_term=%E5%A6%82%E4%BD%95%E6%8B%89%E5%8F%96%E8%BF%9C%E7%A8%8B%E5%88%86%E6%94%AF&utm_medium=distribute.pc_search_result.none-task-blog-2%5C~all%5C~sobaiduweb%5C~default-1-112648082.nonecase&spm=1018.2226.3001.4187)
+[git拉取指定的远程分支(三种方式)]()
+
+### 分支与版本
+
+如果我们没有创建分支的话，提交都默认是在master分支上面提交。
+
+仓库刚建好，还没有提交的时候，这个时候没有分支。
+
+第一次提交的时候默认建立一个master分支，提交到该分支上。
+
+每次提交都相当于标记了一个版本，之后可以根据版本号还原仓库文件到这一次提交时的样子。
+
+提交在单分支上就好像在一串项链上不断串上新的珠子
+
+```mermaid
+graph TD;
+A[初次提交--建立master分支--initial commit] --> B[第二次提交];
+B-->C[第三次提交]
+C-->D[第四次提交]
+D-->E[......]
+E-->F[最新一次提交]
+```
+
+我们可以很轻易地还原到之前任意一次提交对应的版本处。
+
+而多分支的提交，可以帮助我们在同一个基础上去试探多种可能。重要的是可以帮助我们简化分支层次
