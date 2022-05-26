@@ -24,6 +24,6 @@
 
 2. 5min快速上手github
 
-3. git进阶:10min
+3. git和github进阶：10min上手分支
 
-4. git进阶:15min
+4. 使用git和github一些常见问题的解决方案
