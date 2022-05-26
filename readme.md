@@ -22,7 +22,7 @@
 
 1. 五分钟快速上手git
 
-2. 10min快速上手github
+2. 5min快速上手github
 
 3. git进阶:10min
 
