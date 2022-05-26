@@ -81,5 +81,4 @@ git pull 仓库简称 master
 #### 把本地代码推送到远程
 
 ```javascript
-git push 仓库简称 master
 ```
